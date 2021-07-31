@@ -1,0 +1,189 @@
+*{
+	margin:0;
+	padding:0px;
+	box-sizing: border-box;
+}
+.head {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.head img{
+	padding-left: 30px;
+	padding-top: 10px;
+}
+.menu {
+	padding-right:10px;
+	padding-top: 40px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.menu a{
+	color: rgb(43, 43, 94);
+	
+}
+.menu a:not(.active){
+text-decoration:underline;
+padding-left: 10px;
+border-left: 1px solid rgb(43, 43, 94);
+}
+.menu a:hover{
+text-decoration:none;	
+}
+.menu li{
+display: inline;
+padding-right:5px;
+}
+.line{
+background: #b3b3d3;
+height:4px;
+width:100%;
+display: inline-block;
+}
+.background {
+	background:url(background.png);
+	height:100px;
+	width:100%;
+	background-size:100%;
+	margin-top:-5px;
+}
+.background h2{
+	padding-left:120px;
+	padding-top:30px;
+	color:white;
+	font-style:italic;
+	font-family: sans-serif;
+	font-weight: 500;
+}
+.navbar {
+	text-transform: uppercase;
+    display: flex;
+	justify-content: flex-end;
+    background: linear-gradient(to top, rgb(206, 206, 236),rgb(240, 240, 252));
+	background-size: 100%;
+    overflow: hidden;
+	margin-bottom: -15px;
+	padding-right: 90px;
+}
+.navbar a {
+	margin-left: 40px;
+    float: left;
+    color: #224d75;
+	font-weight: 500;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+	font-weight: 600;
+}
+.navbar a:hover{
+    background: linear-gradient(to top, rgb(138, 185, 240),rgb(78, 167, 240));
+    color: #fff;
+}
+.navbar a.active {
+    background: linear-gradient(to top, rgb(138, 185, 240),rgb(78, 167, 240));
+    color: #fff
+}
+.main{
+	display: flex;
+	margin-top: -4.5px;
+}
+.sidebar{
+	width: 25%;
+	background-color: rgb(232, 227, 235);
+}
+.sidecompany{
+	padding: 10px;
+	padding-left: 30px;
+	border: 1px solid rgb(103, 80, 124);
+	background-color: rgb(103, 80, 124);;
+	text-transform: uppercase;
+	color: #FFF;
+	font: 600 20px sans-serif;
+}
+.infoblock{
+	width: 75%;
+}
+.sidemain ul{
+	padding-left: 40px;
+	list-style: none;
+}
+.sidemain ul li{
+	padding: 5px;
+	font: 400 16px sans-serif;
+}
+
+.sidebar a{
+	color: rgb(34, 92, 158);
+}
+
+
+.sidemain ul li:first-child{
+	padding-top: 15px;
+}
+
+.container	{
+	padding: 0 30px;
+}
+.infoblock h4 {
+padding-top: 30px;
+font: 400 26px sans-serif;
+color: rgb(34, 92, 158);;
+}
+.breakline {
+	margin-top: 15px;
+	background-color: rgb(224, 222, 222);
+	height: 2px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.infoblock h5{
+	margin: 20px 0;
+	font: 400 20px sans-serif;
+	color: rgb(49, 36, 83);
+}
+.container img{
+	float: left;
+	margin-right: 20px;
+}
+.container p{
+	color: gray;
+	font-family: sans-serif;
+	line-height: 30px;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(103, 80, 124);
+}
+.contact {
+	padding:15px;
+	font: 400 14px sans-serif;
+	color: #fff;
+}
+.downmenu {
+	padding-bottom: 20px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.downmenu a{
+	color: rgb(43, 43, 94);
+	border-left: 1px solid rgb(43, 43, 94);
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.downmenu ul li{
+	display: inline;
+}
+.downmenu a:not(.active){
+	text-decoration: underline;
+	}
+.downmenu a:hover{
+	text-decoration:none;	
+}
+
+.downmenu a{}
