@@ -111,6 +111,12 @@ display: inline-block;
 .sidemain ul li{
 	padding: 5px;
 	font: 400 16px sans-serif;
+	background-image: url(violet.png);
+	background-repeat: no-repeat;
+	padding-left: 45px;
+	background-position: -10px 1px;
+	background-size: 50px;	
+	
 }
 
 .sidebar a{
@@ -121,7 +127,11 @@ display: inline-block;
 }
 
 .sidemain ul li:first-child{
-	padding-top: 15px;
+	margin-top: 10px;
+	background-image: url(blueone.png);
+	padding-left: 45px;
+	background-position: -10px 1px;
+	background-size: 50px;
 }
 
 .container	{
