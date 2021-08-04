@@ -44,7 +44,8 @@
 	background: url(background.png);
 	height: 100px;
 	width: 100%;
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin-top: -5px;
 }
 .background h2{
@@ -62,7 +63,7 @@
    	background: linear-gradient(to top, rgb(206, 206, 236),rgb(240, 240, 252));
 	background-size: 100%;
    	overflow: hidden;
-	margin-bottom: -15px;
+	margin-bottom: -11px;
 	padding-right: 90px;
 }
 .navbar a {
