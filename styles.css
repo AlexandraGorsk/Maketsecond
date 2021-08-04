@@ -3,6 +3,10 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+body{
+max-width:1400px;
+margin: 0 auto;	
+}
 .head {
 	display: flex;
 	flex-direction: row;
