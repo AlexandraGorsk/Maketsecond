@@ -4,8 +4,9 @@
 	box-sizing: border-box;
 }
 body{
-max-width:1400px;
-margin: 0 auto;	
+	height: 100%;
+	max-width:1400px;
+	margin: 0 auto;	
 }
 .head {
 	display: flex;
@@ -23,8 +24,7 @@ margin: 0 auto;
 	font-size: 14px;
 }
 .menu a{
-	color: rgb(43, 43, 94);
-	
+	color: rgb(43, 43, 94);	
 }
 .menu a:not(.active){
 	text-decoration: underline;
@@ -60,14 +60,39 @@ margin: 0 auto;
 	font-family: sans-serif;
 	font-weight: 500;
 }
+.navbar li {
+	list-style: none;
+	float: left;
+	position: relative;
+}
+.submenu {
+	background: rgb(206, 206, 236,.8);
+	position: absolute;
+	display: none;
+	left: -10px;
+    top: 100%;
+	margin-left: 10px;
+}	
+.submenu li a{
+	font-size: 12px;
+	font-weight: 400;
+	padding: 10px;
+	text-transform: none;
+	text-align: left;
+}
+.submenu li a:hover {
+	background: none;
+}
+.navbar>li:hover .submenu {
+	display: block;
+}
 .navbar {
 	text-transform: uppercase;
     display: flex;
 	justify-content: flex-end;
    	background: linear-gradient(to top, rgb(206, 206, 236),rgb(240, 240, 252));
 	background-size: 100%;
-   	overflow: hidden;
-	margin-bottom: -11px;
+	margin-bottom: -12px;
 	padding-right: 90px;
 }
 .navbar a {
